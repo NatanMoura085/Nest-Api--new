@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, Post } from '@nestjs/common';
 import { PrismaService } from './database/prisma.service';
 import { randomUUID } from 'node:crypto';
-import { createDTo } from './dto/create-dto';
+import { createDTo } from './dtos/create-dto';
 
 @Controller('app')
 export class AppController {

@@ -1,5 +1,16 @@
 {
     "prisma-smart-formatter.typescript.defaultFormatter": "esbenp.prettier-vscode",
     "prisma-smart-formatter.typescriptreact.defaultFormatter": "esbenp.prettier-vscode",
-    "prisma-smart-formatter.prisma.defaultFormatter": "Prisma.prisma"
+    "prisma-smart-formatter.prisma.defaultFormatter": "Prisma.prisma",
+    "material-icon-theme.folders.associations": {
+        "entities": "class",
+        "use-cases": "functions",
+        "useCases": "functions",
+        "infra":"app",
+        "dtos":"typescript",
+         "domain":"class",
+         "http":"container",
+        "repositories":"mappings",
+    
+      },
 }
